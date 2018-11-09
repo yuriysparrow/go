@@ -11,7 +11,7 @@ import (
 var actions = []string{"move", "eat", "load", "unload"}
 var directions = []string{"up", "down", "right", "left"}
 
-func main() {
+func main222() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("content-type", "application/json")
 
